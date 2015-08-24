@@ -1,0 +1,13 @@
+{
+  "name": "MicroserviceApp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "mongodb": "^2.0.42",
+    "request": "^2.61.0"
+  }
+}
