@@ -86,5 +86,5 @@ router.all('', function(req, res, info) {
   responder(res).code(200).html(html);
 });
 
-http.createServer(router.process).listen('9000', '127.0.0.1');
+http.createServer(router.process).listen(process.env.PORT || '9000');
 console.log('API listening');
